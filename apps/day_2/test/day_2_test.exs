@@ -1,8 +1,8 @@
-defmodule DoorTest do
+defmodule DoorCodeTest do
   use ExUnit.Case
-  doctest Door
+  doctest DoorCode
 
-  test "example 1", do: assert "1985" == example_1_input |> Door.decode
+  test "example 1", do: assert "1985" == example_1_input |> DoorCode.decode
 
   def example_1_input do
     "ULL
@@ -12,7 +12,7 @@ UUUUD"
   end
 
   test "input" do
-    assert "56983" = input |> Door.decode
+    assert "56983" = input |> DoorCode.decode
   end
 
   def input do

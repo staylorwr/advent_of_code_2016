@@ -46,7 +46,6 @@ defmodule Door do
     |> Flow.map(&Base.encode16(&1, case: :lower))
     |> Flow.filter(fn
       << "00000"::binary, rest::binary >> ->
-        IO.puts ["Found ", rest]
         true
       _ -> false
     end)

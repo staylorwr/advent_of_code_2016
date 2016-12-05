@@ -1,4 +1,4 @@
-defmodule Door.Mixfile do
+defmodule DoorCode.Mixfile do
   use Mix.Project
 
   def project do

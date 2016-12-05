@@ -1,4 +1,4 @@
-defmodule Door do
+defmodule DoorCode do
   def decode(string) do
     string
     |> parse
