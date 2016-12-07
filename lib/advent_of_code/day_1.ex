@@ -1,4 +1,4 @@
-defmodule Taxi do
+defmodule AdventOfCode.Day1 do
   def net_distance(steps), do: calculate(steps, &List.last/1)
 
   def distance_of_first_overlap(steps), do: calculate(steps, &first_overlap(&1, nil))

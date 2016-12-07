@@ -1,4 +1,5 @@
-defmodule Day6 do
+defmodule AdventOfCode.Day6 do
+
   def extract_max(lines) do
     lines
     |> extract

@@ -1,4 +1,4 @@
-defmodule Keypad do
+defmodule AdventOfCode.Day2.Keypad do
   @moduledoc """
   Represents a simple keypad as:
 

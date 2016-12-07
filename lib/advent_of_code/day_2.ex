@@ -1,4 +1,6 @@
-defmodule DoorCode do
+defmodule AdventOfCode.Day2 do
+  alias AdventOfCode.Day2.Keypad
+
   def decode(string) do
     string
     |> parse

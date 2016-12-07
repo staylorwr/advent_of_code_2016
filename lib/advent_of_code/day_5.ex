@@ -1,4 +1,4 @@
-defmodule Door do
+defmodule AdventOfCode.Day5 do
   alias Experimental.Flow
 
   def hash(door_id) do
@@ -45,7 +45,7 @@ defmodule Door do
     |> Flow.map(fn << keep::size(4)-binary, _::binary >> -> keep end)
     |> Flow.map(&Base.encode16(&1, case: :lower))
     |> Flow.filter(fn
-      << "00000"::binary, rest::binary >> ->
+      << "00000"::binary, _rest::binary >> ->
         true
       _ -> false
     end)

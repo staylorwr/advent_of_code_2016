@@ -1,6 +1,6 @@
-defmodule Day6Test do
+defmodule AdventOfCode.Day6Test do
   use ExUnit.Case
-  doctest Day6
+  alias AdventOfCode.Day6
 
   test "example 1", do: assert example |> Day6.extract_max == "easter"
   test "result 1", do: assert input |> Day6.extract_max == "kjxfwkdh"

@@ -1,5 +1,6 @@
-defmodule KeypadTest do
+defmodule AdventOfCode.Day2.KeypadTest do
   use ExUnit.Case
+  alias AdventOfCode.Day2.Keypad
 
   describe "next/2" do
     test "normal keys" do
