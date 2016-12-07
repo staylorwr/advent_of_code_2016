@@ -1,7 +1,8 @@
 defmodule AdventOfCode.Day5Test do
   use ExUnit.Case, async: true
-  alias AdventOfCode.Day5
   @moduletag timeout: 120000
+
+  alias AdventOfCode.Day5
   @input "cxdnnyjw"
 
   @tag :skip
